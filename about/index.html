@@ -1006,7 +1006,7 @@
 
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;
-            站点总字数 &nbsp;<span class="white-color">83</span>&nbsp;个字
+            总字数 &nbsp;<span class="white-color">83</span>&nbsp;个字
             
             
             
@@ -1081,12 +1081,12 @@
                         var daysTip = 'This site has been running for ' + diffDays + ' days';
                         if (language === 'zh-CN') {
                             //daysTip = '本站已运行 ' + diffDays + ' 天 ' + diffHours + " 小时";
-                            daysTip = '本站已历经 ' + diffDays + ' 天 ' + diffHours + " 小时 " + diffMinutes + " 分钟 " +
-                                diffSeconds + " 秒 风雨岁月";
+                            daysTip = '本站已历经 ' + diffDays + '天' + diffHours + "小时" + diffMinutes + "分钟" +
+                                diffSeconds + "秒 风雨岁月";
                         } else if (language === 'zh-HK') {
                             //daysTip = '本站已運行 ' + diffDays + ' 天 ' + diffHours + " 小时";
-                            daysTip = '本站已历经 ' + diffDays + ' 天 ' + diffHours + " 小时 " + diffMinutes + " 分钟 " +
-                                diffSeconds + " 秒 风雨岁月";
+                            daysTip = '本站已历经 ' + diffDays + '天' + diffHours + "小时" + diffMinutes + "分钟" +
+                                diffSeconds + "秒 风雨岁月";
                         }
                         document.getElementById("sitetime").innerHTML = daysTip;
                     } else {
@@ -1095,12 +1095,12 @@
                             diffDays + ' days';
                         if (language === 'zh-CN') {
                             //yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天 ' + diffHours + " 小时";
-                            yearsAndDaysTip = '本站已历经 ' + diffYears + ' 年 ' + diffDays + ' 天 ' + diffHours + " 小时 " +
-                                diffMinutes + " 分钟 " + diffSeconds + " 秒 风雨岁月";
+                            yearsAndDaysTip = '本站已历经 ' + diffYears + '年' + diffDays + '天' + diffHours + "小时" +
+                                diffMinutes + "分钟" + diffSeconds + "秒 风雨岁月";
                         } else if (language === 'zh-HK') {
                             //yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天 ' + diffHours + " 小时";
-                            yearsAndDaysTip = '本站已历经 ' + diffYears + ' 年 ' + diffDays + ' 天 ' + diffHours + " 小时 " +
-                                diffMinutes + " 分钟 " + sdiffSeconds + " 秒 风雨岁月";
+                            yearsAndDaysTip = '本站已历经 ' + diffYears + '年' + diffDays + '天' + diffHours + "小时" +
+                                diffMinutes + "分钟" + sdiffSeconds + "秒 风雨岁月";
                         }
                         document.getElementById("sitetime").innerHTML = yearsAndDaysTip;
                     }
