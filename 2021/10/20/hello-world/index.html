@@ -1108,7 +1108,7 @@
 
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;
-            总字数<span class="white-color">83</span>个字
+            站点总字数<span class="white-color">83</span>个字
             
             
             
@@ -1125,9 +1125,10 @@
             
             <span id="busuanzi_container_site_uv">
                 &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;
-                您是第<span id="busuanzi_value_site_uv" class="white-color"></span>位访问者
+                您是第<span id="busuanzi_value_site_uv" class="white-color"></span>位来看我的人
             </span>
             
+
             <br>
 
             <!-- 运行天数提醒. -->
@@ -1182,12 +1183,12 @@
                         var daysTip = 'This site has been running for ' + diffDays + ' days';
                         if (language === 'zh-CN') {
                             //daysTip = '本站已运行 ' + diffDays + ' 天 ' + diffHours + " 小时";
-                            daysTip = '本站已运行 ' + diffDays + ' 天' + diffHours + " 小时" + diffMinutes + " 分钟" +
-                                diffSeconds + " 秒";
+                            daysTip = '本站已历经 ' + diffDays + ' 天 ' + diffHours + " 小时 " + diffMinutes + " 分钟 " +
+                                diffSeconds + " 秒 风雨岁月";
                         } else if (language === 'zh-HK') {
                             //daysTip = '本站已運行 ' + diffDays + ' 天 ' + diffHours + " 小时";
-                            daysTip = '本站已運行 ' + diffDays + ' 天' + diffHours + " 小时" + diffMinutes + " 分钟" +
-                                diffSeconds + " 秒";
+                            daysTip = '本站已历经 ' + diffDays + ' 天 ' + diffHours + " 小时 " + diffMinutes + " 分钟 " +
+                                diffSeconds + " 秒 风雨岁月";
                         }
                         document.getElementById("sitetime").innerHTML = daysTip;
                     } else {
@@ -1196,12 +1197,12 @@
                             diffDays + ' days';
                         if (language === 'zh-CN') {
                             //yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天 ' + diffHours + " 小时";
-                            yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天' + diffHours + " 小时" +
-                                diffMinutes + " 分钟" + diffSeconds + " 秒";
+                            yearsAndDaysTip = '本站已历经 ' + diffYears + ' 年 ' + diffDays + ' 天 ' + diffHours + " 小时 " +
+                                diffMinutes + " 分钟 " + diffSeconds + " 秒 风雨岁月";
                         } else if (language === 'zh-HK') {
                             //yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天 ' + diffHours + " 小时";
-                            yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天' + diffHours + " 小时" +
-                                diffMinutes + " 分钟" + sdiffSeconds + " 秒";
+                            yearsAndDaysTip = '本站已历经 ' + diffYears + ' 年 ' + diffDays + ' 天 ' + diffHours + " 小时 " +
+                                diffMinutes + " 分钟 " + sdiffSeconds + " 秒 风雨岁月";
                         }
                         document.getElementById("sitetime").innerHTML = yearsAndDaysTip;
                     }
