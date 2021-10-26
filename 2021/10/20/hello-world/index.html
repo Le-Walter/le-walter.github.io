@@ -1177,11 +1177,13 @@
                         document.getElementById("year").innerHTML = todayYear;
                         var daysTip = 'This site has been running for ' + diffDays + ' days';
                         if (language === 'zh-CN') {
-                            daysTip = '本站已运行 ' + diffDays + ' 天 ' + diffHours + " 小时";
-                            //daysTip = '本站已运行 ' + diffDays + ' 天' + diffHours + " 小时" + diffMinutes + " 分钟" + diffSeconds + " 秒";
+                            //daysTip = '本站已运行 ' + diffDays + ' 天 ' + diffHours + " 小时";
+                            daysTip = '本站已运行 ' + diffDays + ' 天' + diffHours + " 小时" + diffMinutes + " 分钟" +
+                                diffSeconds + " 秒";
                         } else if (language === 'zh-HK') {
-                            daysTip = '本站已運行 ' + diffDays + ' 天 ' + diffHours + " 小时";
-                            //daysTip = '本站已運行 ' + diffDays + ' 天' + diffHours + " 小时" + diffMinutes + " 分钟" + diffSeconds + " 秒";
+                            //daysTip = '本站已運行 ' + diffDays + ' 天 ' + diffHours + " 小时";
+                            daysTip = '本站已運行 ' + diffDays + ' 天' + diffHours + " 小时" + diffMinutes + " 分钟" +
+                                diffSeconds + " 秒";
                         }
                         document.getElementById("sitetime").innerHTML = daysTip;
                     } else {
@@ -1189,11 +1191,12 @@
                         var yearsAndDaysTip = 'This site has been running for ' + diffYears + ' years and ' +
                             diffDays + ' days';
                         if (language === 'zh-CN') {
-                            yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天 ' + diffHours + " 小时";
-                            // yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天' + diffHours + " 小时" + diffMinutes + " 分钟" + diffSeconds + " 秒";
+                            //yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天 ' + diffHours + " 小时";
+                            //yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天' + diffHours + " 小时" + diffMinutes + " 分钟" + diffSeconds + " 秒";
                         } else if (language === 'zh-HK') {
-                            yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天 ' + diffHours + " 小时";
-                            // yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天' + diffHours + " 小时" + diffMinutes + " 分钟" + sdiffSeconds + " 秒";
+                            //yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天 ' + diffHours + " 小时";
+                            yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天' + diffHours + " 小时" +
+                                diffMinutes + " 分钟" + sdiffSeconds + " 秒";
                         }
                         document.getElementById("sitetime").innerHTML = yearsAndDaysTip;
                     }
